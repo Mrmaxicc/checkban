@@ -44,14 +44,14 @@ async def QwE(jt, pt):
 def AsD(reg):
     reg = reg.upper()
     if reg == "IND":
-        return "uid=4620004854&password=RAGHAVLIKEBOT_RAGHAV_2RT1U"
+        return "uid=6780921160&password=RLZXTUACUL64"
     elif reg in {"BR", "US", "SAC", "NA"}:
-        return "uid=4044223479&password=EB067625F1E2CB705C7561747A46D502480DC5D41497F4C90F3FDBC73B8082ED"
+        return "uid=6780921160&password=RLZXTUACUL64"
     else:
-        return "uid=4108414251&password=E4F9C33BBEB23C0DA0AD7E60F63C8A05D6A878798E3CD32C4E2314C1EEFD4F72"
+        return "uid=6780921160&password=RLZXTUACUL64"
 
 async def ZxV(acc):
-    url = "https://ffmconnect.live.gop.garenanow.com/oauth/guest/token/grant"
+    url = "https://100067.connect.garena.com/oauth/guest/token/grant"
     data = acc + "&response_type=token&client_type=2&client_secret=2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3&client_id=100067"
     async with httpx.AsyncClient() as cl:
         res = await cl.post(url, data=data, headers={'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 13; CPH2095 Build/RKQ1.211119.001)", 'Connection': "Keep-Alive", 'Accept-Encoding': "gzip", 'Content-Type': "application/x-www-form-urlencoded"})
