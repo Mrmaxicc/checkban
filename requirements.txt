@@ -1,10 +1,5 @@
-fastapi
-uvicorn
-Flask[async]
-requests
-aiohttp
-googleapis-common-protos
-pycryptodome
+Flask
+Flask-Cors
+httpx
 protobuf
-Werkzeug
-PyJWT
+pycryptodome
